@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -54,7 +54,6 @@
 				7EF19B3900BBF6D323DDFBF7 /* Pods-ForeCast.debug.xcconfig */,
 				DC28958B86152012696F3AF5 /* Pods-ForeCast.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -81,16 +80,32 @@
 			children = (
 				E25D98AE258CC8BA007667A7 /* AppDelegate.swift */,
 				E25D98B0258CC8BA007667A7 /* SceneDelegate.swift */,
-				E25D98B2258CC8BA007667A7 /* HomeViewController.swift */,
-				E25D98C6258CE23E007667A7 /* HomeViewController+Extension.swift */,
+				E25D98C9258CFD20007667A7 /* home */,
 				E25D98B4258CC8BA007667A7 /* Main.storyboard */,
 				E25D98B7258CC8BB007667A7 /* Assets.xcassets */,
 				E25D98B9258CC8BB007667A7 /* LaunchScreen.storyboard */,
 				E25D98BC258CC8BB007667A7 /* Info.plist */,
+			);
+			path = ForeCast;
+			sourceTree = "<group>";
+		};
+		E25D98C8258CFD0C007667A7 /* cell */ = {
+			isa = PBXGroup;
+			children = (
 				E25D98C2258CE039007667A7 /* WeatherTableViewCell.swift */,
 				E25D98C3258CE039007667A7 /* WeatherTableViewCell.xib */,
 			);
-			path = ForeCast;
+			path = cell;
+			sourceTree = "<group>";
+		};
+		E25D98C9258CFD20007667A7 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				E25D98C8258CFD0C007667A7 /* cell */,
+				E25D98B2258CC8BA007667A7 /* HomeViewController.swift */,
+				E25D98C6258CE23E007667A7 /* HomeViewController+Extension.swift */,
+			);
+			path = home;
 			sourceTree = "<group>";
 		};
 		F8A15CF8B5C484FF81D2B934 /* Frameworks */ = {
