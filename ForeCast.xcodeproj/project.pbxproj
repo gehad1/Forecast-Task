@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		E25D98AF258CC8BA007667A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D98AE258CC8BA007667A7 /* AppDelegate.swift */; };
 		E25D98B1258CC8BA007667A7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D98B0258CC8BA007667A7 /* SceneDelegate.swift */; };
-		E25D98B3258CC8BA007667A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D98B2258CC8BA007667A7 /* ViewController.swift */; };
+		E25D98B3258CC8BA007667A7 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D98B2258CC8BA007667A7 /* HomeViewController.swift */; };
 		E25D98B6258CC8BA007667A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25D98B4258CC8BA007667A7 /* Main.storyboard */; };
 		E25D98B8258CC8BB007667A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E25D98B7258CC8BB007667A7 /* Assets.xcassets */; };
 		E25D98BB258CC8BB007667A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E25D98B9258CC8BB007667A7 /* LaunchScreen.storyboard */; };
+		E25D98C4258CE039007667A7 /* WeatherTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D98C2258CE039007667A7 /* WeatherTableViewCell.swift */; };
+		E25D98C5258CE039007667A7 /* WeatherTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E25D98C3258CE039007667A7 /* WeatherTableViewCell.xib */; };
+		E25D98C7258CE23E007667A7 /* HomeViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25D98C6258CE23E007667A7 /* HomeViewController+Extension.swift */; };
+		E6F0436A886593BFD8CD2297 /* Pods_ForeCast.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9962ECA30572D8A9E9CC2FDC /* Pods_ForeCast.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7EF19B3900BBF6D323DDFBF7 /* Pods-ForeCast.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForeCast.debug.xcconfig"; path = "Target Support Files/Pods-ForeCast/Pods-ForeCast.debug.xcconfig"; sourceTree = "<group>"; };
+		9962ECA30572D8A9E9CC2FDC /* Pods_ForeCast.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ForeCast.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC28958B86152012696F3AF5 /* Pods-ForeCast.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ForeCast.release.xcconfig"; path = "Target Support Files/Pods-ForeCast/Pods-ForeCast.release.xcconfig"; sourceTree = "<group>"; };
 		E25D98AB258CC8BA007667A7 /* ForeCast.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ForeCast.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E25D98AE258CC8BA007667A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E25D98B0258CC8BA007667A7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E25D98B2258CC8BA007667A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E25D98B2258CC8BA007667A7 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E25D98B5258CC8BA007667A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E25D98B7258CC8BB007667A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E25D98BA258CC8BB007667A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E25D98BC258CC8BB007667A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E25D98C2258CE039007667A7 /* WeatherTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherTableViewCell.swift; sourceTree = "<group>"; };
+		E25D98C3258CE039007667A7 /* WeatherTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WeatherTableViewCell.xib; sourceTree = "<group>"; };
+		E25D98C6258CE23E007667A7 /* HomeViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "HomeViewController+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +41,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6F0436A886593BFD8CD2297 /* Pods_ForeCast.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3298BB188BE0CF266450D19D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7EF19B3900BBF6D323DDFBF7 /* Pods-ForeCast.debug.xcconfig */,
+				DC28958B86152012696F3AF5 /* Pods-ForeCast.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E25D98A2258CC8BA007667A7 = {
 			isa = PBXGroup;
 			children = (
 				E25D98AD258CC8BA007667A7 /* ForeCast */,
 				E25D98AC258CC8BA007667A7 /* Products */,
+				3298BB188BE0CF266450D19D /* Pods */,
+				F8A15CF8B5C484FF81D2B934 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,24 @@
 			children = (
 				E25D98AE258CC8BA007667A7 /* AppDelegate.swift */,
 				E25D98B0258CC8BA007667A7 /* SceneDelegate.swift */,
-				E25D98B2258CC8BA007667A7 /* ViewController.swift */,
+				E25D98B2258CC8BA007667A7 /* HomeViewController.swift */,
+				E25D98C6258CE23E007667A7 /* HomeViewController+Extension.swift */,
 				E25D98B4258CC8BA007667A7 /* Main.storyboard */,
 				E25D98B7258CC8BB007667A7 /* Assets.xcassets */,
 				E25D98B9258CC8BB007667A7 /* LaunchScreen.storyboard */,
 				E25D98BC258CC8BB007667A7 /* Info.plist */,
+				E25D98C2258CE039007667A7 /* WeatherTableViewCell.swift */,
+				E25D98C3258CE039007667A7 /* WeatherTableViewCell.xib */,
 			);
 			path = ForeCast;
+			sourceTree = "<group>";
+		};
+		F8A15CF8B5C484FF81D2B934 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9962ECA30572D8A9E9CC2FDC /* Pods_ForeCast.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +108,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E25D98BF258CC8BB007667A7 /* Build configuration list for PBXNativeTarget "ForeCast" */;
 			buildPhases = (
+				EBBD2801B4AF73AD31A34C0D /* [CP] Check Pods Manifest.lock */,
 				E25D98A7258CC8BA007667A7 /* Sources */,
 				E25D98A8258CC8BA007667A7 /* Frameworks */,
 				E25D98A9258CC8BA007667A7 /* Resources */,
+				F66A14B1A0FDBCE99143500F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,6 +161,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E25D98C5258CE039007667A7 /* WeatherTableViewCell.xib in Resources */,
 				E25D98BB258CC8BB007667A7 /* LaunchScreen.storyboard in Resources */,
 				E25D98B8258CC8BB007667A7 /* Assets.xcassets in Resources */,
 				E25D98B6258CC8BA007667A7 /* Main.storyboard in Resources */,
@@ -133,12 +170,56 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		EBBD2801B4AF73AD31A34C0D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ForeCast-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F66A14B1A0FDBCE99143500F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForeCast/Pods-ForeCast-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ForeCast/Pods-ForeCast-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ForeCast/Pods-ForeCast-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E25D98A7258CC8BA007667A7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25D98B3258CC8BA007667A7 /* ViewController.swift in Sources */,
+				E25D98C7258CE23E007667A7 /* HomeViewController+Extension.swift in Sources */,
+				E25D98C4258CE039007667A7 /* WeatherTableViewCell.swift in Sources */,
+				E25D98B3258CC8BA007667A7 /* HomeViewController.swift in Sources */,
 				E25D98AF258CC8BA007667A7 /* AppDelegate.swift in Sources */,
 				E25D98B1258CC8BA007667A7 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +363,7 @@
 		};
 		E25D98C0258CC8BB007667A7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7EF19B3900BBF6D323DDFBF7 /* Pods-ForeCast.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +382,7 @@
 		};
 		E25D98C1258CC8BB007667A7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC28958B86152012696F3AF5 /* Pods-ForeCast.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
